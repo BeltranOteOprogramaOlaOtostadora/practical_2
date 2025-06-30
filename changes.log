@@ -1,0 +1,1120 @@
+commit f1b8f9d12e3e79391413c2b6ec98701ae17623f5
+Author: Beltran0te0programaOlaOtostadora <beltranem@gmail.com>
+Date:   Mon Jun 30 17:16:42 2025 +0200
+
+    Adding images folder with all images used up to now
+
+diff --git a/docs/images/jump.jpg b/docs/images/jump.jpg
+new file mode 100644
+index 0000000..130b646
+Binary files /dev/null and b/docs/images/jump.jpg differ
+diff --git a/docs/images/mifoto.jpg b/docs/images/mifoto.jpg
+new file mode 100644
+index 0000000..fa04dda
+Binary files /dev/null and b/docs/images/mifoto.jpg differ
+diff --git a/docs/images/slalom.jpg b/docs/images/slalom.jpg
+new file mode 100644
+index 0000000..073e8c6
+Binary files /dev/null and b/docs/images/slalom.jpg differ
+diff --git a/docs/images/triks.jpg b/docs/images/triks.jpg
+new file mode 100644
+index 0000000..3f10b9a
+Binary files /dev/null and b/docs/images/triks.jpg differ
+diff --git a/docs/images/yoyelperro.jpg b/docs/images/yoyelperro.jpg
+new file mode 100644
+index 0000000..475441f
+Binary files /dev/null and b/docs/images/yoyelperro.jpg differ
+
+commit 422ed5b2a0e5501a8fff6a3abbb6b1ac4063fada
+Author: Beltran0te0programaOlaOtostadora <beltranem@gmail.com>
+Date:   Mon Jun 30 17:16:00 2025 +0200
+
+    Adding CSS folder and styles.css
+
+diff --git a/docs/css/STYLE.css b/docs/css/STYLE.css
+new file mode 100644
+index 0000000..bcc091d
+--- /dev/null
++++ b/docs/css/STYLE.css
+@@ -0,0 +1,364 @@
++body {
++    font-family: Arial, sans-serif;
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++}
++header {
++    background-color: #4CAF50;
++    color: white;
++    padding: 15px;
++    text-align: center;
++}
++nav ul {
++    list-style-type: none;
++    margin: 0;
++    padding: 0;
++    background-color: #333;
++}
++nav ul li {
++    display: inline;
++}
++nav ul li a {
++    color: white;
++    padding: 10px 20px;
++    text-decoration: none;
++}
++nav ul li a:hover {
++    background-color: #555;
++}
++main {
++    padding: 20px;
++}
++
++
++body {
++    font-family: Arial, sans-serif;
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++}
++header {
++    background-color: #4CAF50;
++    color: white;
++    padding: 15px;
++    text-align: center;
++}
++nav ul {
++    list-style-type: none;
++    margin: 0;
++    padding: 0;
++    background-color: #333;
++}
++nav ul li {
++    display: inline;
++}
++nav ul li a {
++    color: white;
++    padding: 10px 20px;
++    text-decoration: none;
++}
++nav ul li a:hover {
++    background-color: #555;
++}
++main {
++    padding: 20px;
++}
++
++body {
++    font-family: Arial, sans-serif;
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++}
++header {
++    background-color: #4CAF50;
++    color: white;
++    padding: 15px;
++    text-align: center;
++}
++nav ul {
++    list-style-type: none;
++    margin: 0;
++    padding: 0;
++    background-color: #333;
++}
++nav ul li {
++    display: inline;
++}
++nav ul li a {
++    color: white;
++    padding: 10px 20px;
++    text-decoration: none;
++}
++nav ul li a:hover {
++    background-color: #555;
++}
++main {
++    padding: 20px;
++}
++
++body {
++    font-family: Arial, sans-serif;
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++}
++header {
++    background-color: #4CAF50;
++    color: white;
++    padding: 15px;
++    text-align: center;
++}
++nav ul {
++    list-style-type: none;
++    margin: 0;
++    padding: 0;
++    background-color: #333;
++}
++nav ul li {
++    display: inline;
++}
++nav ul li a {
++    color: white;
++    padding: 10px 20px;
++    text-decoration: none;
++}
++nav ul li a:hover {
++    background-color: #555;
++}
++main {
++    padding: 20px;
++}
++
++
++body {
++    font-family: Arial, sans-serif;
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++}
++header {
++    background-color: #4CAF50;
++    color: white;
++    padding: 15px;
++    text-align: center;
++}
++nav ul {
++    list-style-type: none;
++    margin: 0;
++    padding: 0;
++    background-color: #333;
++}
++nav ul li {
++    display: inline;
++}
++nav ul li a {
++    color: white;
++    padding: 10px 20px;
++    text-decoration: none;
++}
++nav ul li a:hover {
++    background-color: #555;
++}
++main {
++    padding: 20px;
++}
++/* Reset básico */
++* {
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++}
++
++/* Estilo global */
++body {
++    font-family: Arial, sans-serif;
++    line-height: 1.6;
++    background-color: #f4f4f4;
++    color: #333;
++    padding: 20px;
++}
++
++/* Navegación */
++nav {
++    background-color: #333;
++    padding: 1em;
++    margin-bottom: 20px;
++    border-radius: 8px;
++}
++
++nav ul {
++    list-style: none;
++    display: flex;
++    justify-content: space-around;
++    flex-wrap: wrap;
++}
++
++nav ul li a {
++    color: white;
++    text-decoration: none;
++    padding: 0.5em 1em;
++    transition: background-color 0.3s ease;
++    border-radius: 5px;
++}
++
++nav ul li a:hover {
++    background-color: #555;
++}
++
++/* Secciones */
++section {
++    background-color: white;
++    padding: 20px;
++    border-radius: 8px;
++    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
++    margin-bottom: 20px;
++}
++
++/* Formularios */
++form input[type="text"],
++form input[type="email"],
++form textarea {
++    width: 100%;
++    padding: 10px;
++    margin-top: 5px;
++    margin-bottom: 15px;
++    border: 1px solid #ccc;
++    border-radius: 4px;
++}
++
++form button {
++    padding: 10px 20px;
++    background-color: #333;
++    color: white;
++    border: none;
++    border-radius: 5px;
++    cursor: pointer;
++    transition: background-color 0.3s ease;
++}
++
++form button:hover {
++    background-color: #555;
++}
++
++/* Enlaces generales */
++a {
++    color: #0077cc;
++}
++
++a:hover {
++    text-decoration: underline;
++}
++
++/* Reset */
++* {
++    margin: 0;
++    padding: 0;
++    box-sizing: border-box;
++}
++
++body {
++    font-family: Arial, sans-serif;
++    line-height: 1.6;
++    background-color: #f4f4f4;
++    color: #333;
++    padding: 20px;
++}
++
++header {
++    background-color: #4CAF50;
++    color: white;
++    padding: 15px;
++    text-align: center;
++    border-radius: 8px;
++    margin-bottom: 20px;
++}
++
++nav {
++    background-color: #333;
++    padding: 1em;
++    margin-bottom: 20px;
++    border-radius: 8px;
++}
++
++nav ul {
++    list-style: none;
++    display: flex;
++    justify-content: space-around;
++    flex-wrap: wrap;
++}
++
++nav ul li a {
++    color: white;
++    text-decoration: none;
++    padding: 0.5em 1em;
++    transition: background-color 0.3s ease;
++    border-radius: 5px;
++}
++
++nav ul li a:hover {
++    background-color: #555;
++}
++
++main {
++    padding: 20px;
++}
++
++section {
++    background-color: white;
++    padding: 20px;
++    border-radius: 8px;
++    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
++    margin-bottom: 20px;
++}
++
++/* Form Styles */
++form {
++    display: flex;
++    flex-direction: column;
++}
++
++form label {
++    margin-top: 10px;
++    margin-bottom: 5px;
++    font-weight: bold;
++}
++
++form input[type="text"],
++form input[type="email"],
++form textarea {
++    padding: 10px;
++    border: 1px solid #ccc;
++    border-radius: 4px;
++    margin-bottom: 15px;
++    width: 100%;
++}
++
++form textarea {
++    resize: vertical;
++}
++
++form button {
++    padding: 10px 20px;
++    background-color: #4CAF50;
++    color: white;
++    border: none;
++    border-radius: 5px;
++    cursor: pointer;
++    transition: background-color 0.3s ease;
++    align-self: flex-start;
++}
++
++form button:hover {
++    background-color: #45a049;
++}
++
++/* Links */
++a {
++    color: #0077cc;
++}
++
++a:hover {
++    text-decoration: underline;
++}
+\ No newline at end of file
+
+commit 9a441bb231124ab270fb5efbf5f58f426785c46f
+Author: Beltran0te0programaOlaOtostadora <beltranem@gmail.com>
+Date:   Mon Jun 30 17:14:23 2025 +0200
+
+    Adding net and topic files
+
+diff --git a/docs/public/net.htm b/docs/public/net.htm
+new file mode 100644
+index 0000000..f89164f
+--- /dev/null
++++ b/docs/public/net.htm
+@@ -0,0 +1,38 @@
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Net - Links to Classmates</title>
++    <link rel="stylesheet" href="../CSS/style.css">
++</head>
++<body>
++    <header>
++        <h1>Classmates Websites</h1>
++    </header>
++    <nav>
++        <ul>
++            <li><a href="../index.html">Home</a></li>
++            <li><a href="about.html">About Me</a></li>
++            <li><a href="contact.html">Contact</a></li>
++            <li><a href="../public/net.htm">Net</a></li>
++            <li><a href="topic.html">Topic</a></li>
++            <li><a href="degree.html">Degree</a></li>
++            <li><a href="fce.html">FCE</a></li>
++        </ul>
++    </nav>
++    <main>
++        <section>
++            <h2>Links to My Classmates' Websites</h2>
++            <ul>
++                <li><a href="https://gonzaloartinano.github.io/Practical-work-II/docs/index.html" target="_blank">Gonzalo Artiñano</a></li>
++                <li><a href="https://pablomarquezufv.github.io/Practical_Work_II/index.html" target="_blank">Pablo Marquez</a></li>
++                <li><a href="https://javierlaz.github.io/PracticalworkII/index.html" target="_blank">Javier Lazaro</a></li>
++                <li><a href="https://fernandospvm.github.io/practical_work_II/" target="_blank">Fernando Sanprudencio</a></li>
++                <li><a href="https://ignacio-arjona.github.io/practical-work-ii/index.html" target="_blank">Ignacio Arjona</a></li>
++            
++            </ul>
++        </section>
++    </main>
++    
++</body>
++</html>
+\ No newline at end of file
+diff --git a/docs/public/topic.html b/docs/public/topic.html
+new file mode 100644
+index 0000000..30f4c32
+--- /dev/null
++++ b/docs/public/topic.html
+@@ -0,0 +1,36 @@
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <meta name="description" content="Learn more about the sport of water skiing.">
++    <title>Water Skiing</title>
++    <link rel="stylesheet" href="../CSS/style.css">
++</head>
++<body>
++    <nav>
++        <ul>
++            <li><a href="../index.html">Home</a></li>
++            <li><a href="about.html">About Me</a></li>
++            <li><a href="contact.html">Contact</a></li>
++            <li><a href="../public/net.htm">Net</a></li>
++            <li><a href="topic.html">Topic</a></li>
++            <li><a href="degree.html">Degree</a></li>
++            <li><a href="fce.html">FCE</a></li>
++        </ul>
++    </nav>
++
++    <section id="topic">
++        <h1>The Sport of Water Skiing</h1>
++        <p>Water skiing is a thrilling aquatic sport that involves being pulled behind a motorboad while standing on skis. It combines elements of balance, speed, and agility, offering both recreational fun and competitive challenges. The feeling of gliding across the water's surface, propelled by a boat, is unlike any other and provides an exciting way to enjoy lakes and rivers during warmer months. Whether you are a beginner or a seasoned athlete, the learning curve of water skiing is rewarding and enjoyable.</p>
++        <p>The sport began in the early 20th century and has since evolved into multiple disciplines, such as slalom, trick skiing, and ski jumping. Slalom skiing tests precision as athletes weave between buoys placed in the water. Trick skiing highlights creativity and coordination through flips, spins, and unique maneuvers. Ski jumping is the most spectacular, with athletes hurtling themselves off ramps in an attempt to achieve the greatest distance and perfect form in the air. These disciplines each require specific equipment and training, making water skiing a diverse and challenging sport.</p>
++        <p>Aside from its competitive aspect, water skiing is also a popular recreational activity. Families and friends often gather on lakes during summer holidays to enjoy casual skiing, tubing, and wakeboarding. It is accessible to people of different skill levels, and with proper instruction and safety measures such as wearing life vests and using spotters it can be a safe and enjoyable way to spend time outdoors. Some resorts and vacation spots even offer lessons and rental equipment, making it easier than ever to get started.</p>
++        <p>In recent years, water skiing has also been integrated into multi sport events and is governed internationally by the International Waterski & Wakeboard Federation (IWWF). Professional competitions are held worldwide, and athletes from different countries train rigorously to represent their nations. Innovations in boat design, ski materials, and training techniques have advanced the sport considerably, allowing for higher performance and more impressive stunts. With a global community of enthusiasts, water skiing continues to grow in popularity and prestige.</p>
++        <p>Ultimately, water skiing is more than just a sport; it is a lifestyle embraced by those who love water, speed, and challenge. It offers a full-body workout, enhances coordination and balance, and brings people closer to nature. Whether you're gliding calmly behind a boat or competing in international tournaments, water skiing provides a dynamic and exhilarating experience that captivates people of all ages. It's a sport that combines adventure, beauty, and adrenaline in equal measure, and it's well worth discovering for anyone seeking a unique and fulfilling activity on the water.</p>
++       <p>Here in this link we can see one of the best woman triker in the world Erika Lang doing her routine and seting the actual woman's triking world record:</p>
++       <li><a href="https://www.youtube.com/watch?v=p9IKnp96IUQ​">Triks</a></li>
++        <img src="../images/slalom.jpg" alt="Photo " style="max-width: 300px; border-radius: 10px;">
++        <img src="../images/triks.jpg" alt="Photo" style="max-width: 300px; border-radius: 10px;">
++        <img src="../images/jump.jpg" alt="Photo" style="max-width: 300px; border-radius: 10px;">
++    </section>
++</body>
++</html>
+\ No newline at end of file
+
+commit 91adce89672e4192e40bab67a172d4a98f39dda5
+Author: Beltran0te0programaOlaOtostadora <beltranem@gmail.com>
+Date:   Mon Jun 30 17:12:49 2025 +0200
+
+    Adding FCE html file. still yet to be done
+
+diff --git a/docs/public/fce.html b/docs/public/fce.html
+new file mode 100644
+index 0000000..e69de29
+
+commit e29aa60cfb629d67a04b40018fc60856d1f78e97
+Author: Beltran0te0programaOlaOtostadora <beltranem@gmail.com>
+Date:   Mon Jun 30 17:12:18 2025 +0200
+
+    Adding degree html file
+
+diff --git a/docs/public/degree.html b/docs/public/degree.html
+new file mode 100644
+index 0000000..137e232
+--- /dev/null
++++ b/docs/public/degree.html
+@@ -0,0 +1,403 @@
++
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Degree - Computer Engineering</title>
++    <link rel="stylesheet" href="../CSS/style.css">
++</head>
++<body>
++    <header>
++        <h1>Computer Engineering Degree</h1>
++    </header>
++    <nav>
++        <ul>
++            <li><a href="../index.html">Home</a></li>
++            <li><a href="about.html">About Me</a></li>
++            <li><a href="contact.html">Contact</a></li>
++            <li><a href="../public/net.htm">Net</a></li>
++            <li><a href="topic.html">Topic</a></li>
++            <li><a href="degree.html">Degree</a></li>
++            
++            
++        </ul>
++    </nav>
++    <main>
++        <section>
++            <h2>Key Competencies</h2>
++            <p>Students of Computer Engineering acquire a diverse set of skills and competencies, including:</p>
++            <ul>
++                <li>Programming and software development.</li>
++                <li>Design and management of databases.</li>
++                <li>Computer hardware and embedded systems design.</li>
++                <li>Networking and communication technologies.</li>
++                <li>Cybersecurity principles and practices.</li>
++                <li>Problem-solving and algorithm design.</li>
++                <li>Artificial intelligence and machine learning fundamentals.</li>
++                <li>Project management and teamwork abilities.</li>
++                <li>Systems analysis and architecture design.</li>
++                <li>Adaptability to new technologies and trends.</li>
++            </ul>
++            
++        </section>
++        <section>
++            <h2>First year Courses</h2>
++            <table border="1">
++                <tr>
++                    <th> Course </th>
++                    <th> period </th>
++                    <th> category </th>
++                </tr>
++                <tr>
++                    <td> Calculous I </td>
++                    <td> Period 1 </td>
++                    <td> Maths </td>
++                </tr>
++                <tr>
++                    <td> Algebra I </td>
++                    <td> Period 1 </td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Introduction to Programming</td>
++                    <td>Period 1</td>
++                    <td>Computer science</td>
++                </tr>
++                <tr>
++                    <td>IEU
++                    </td>
++                    <td>Period 1</td>
++                    <td>Social studies</td>
++                </tr>
++            </tr>
++            <tr>
++                <td>Logic and Critical Thinking</td>
++                <td>Period 1</td>
++                <td>Social studies</td>
++            </tr>
++            <tr>
++                <td>Fundamentals of Computer Engineering</td>
++                <td>Period 1</td>
++                <td>Computer science</td>
++            </tr>
++                <tr>
++                    <td>HCP</td>
++                    <td>Period 2</td>
++                    <td>Social studies</td>
++                </tr>
++                
++                <tr>
++                    <td>Calculous II</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Discrete Mathematics</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Electronics and Computer Technology</td>
++                    <td>Period 2</td>
++                    <td>Computer science</td>
++                </tr>
++                <tr>
++                    <td>Algebra II</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Proyects I</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>History of Science and Technology</td>
++                    <td>Period 2</td>
++                    <td>Social studies</td>
++                </tr>
++                <tr>
++                    <td>Mathematical and computational logic</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++            </table>
++            
++        </section>
++        <section>
++            <h2>Second year Courses</h2>
++            <table border="1">
++                <tr>
++                    <th> Course </th>
++                    <th> period </th>
++                    <th> category </th>
++                </tr>
++                <tr>
++                    <td> Digital transformation </td>
++                    <td> Period 1 </td>
++                    <td> Social studies </td>
++                </tr>
++                <tr>
++                    <td> Stadistics </td>
++                    <td> Period 1 </td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Programming II</td>
++                    <td>Period 1</td>
++                    <td>Computer science</td>
++                </tr>
++                <tr>
++                    <td>Web development</td>
++                    <td>Period 1</td>
++                    <td>Computer science</td>
++                </tr>
++            </tr>
++            <tr>
++                <td>Information systems</td>
++                <td>Period 1</td>
++                <td>Computer science</td>
++            </tr>
++            
++                <tr>
++                    <td>Proyects II</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                
++                <tr>
++                    <td>Stadistics II</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Diferential Ecuations</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Anthorpology</td>
++                    <td>Period 2</td>
++                    <td> Social studies </td>
++                </tr>
++                <tr>
++                    <td>Data bases</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Proyects I</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Numerical calculous</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>software Engineering I</td>
++                    <td>Period 2</td>
++                    <td>Computer science</td>
++                </tr>
++            </table>
++        </section>
++        <section>
++            <h2>Third year Courses</h2>
++            <table border="1">
++                <tr>
++                    <th> Course </th>
++                    <th> period </th>
++                    <th> category </th>
++                </tr>
++                <tr>
++                    <td> Numeric calculous II </td>
++                    <td> Period 1 </td>
++                    <td> Maths </td>
++                </tr>
++                <tr>
++                    <td> Operative investigation </td>
++                    <td> Period 1 </td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Automatons</td>
++                    <td>Period 1</td>
++                    <td>Computer science</td>
++                </tr>
++                <tr>
++                    <td>Simulation and modelation
++                    </td>
++                    <td>Period 1</td>
++                    <td>Computer science</td>
++                </tr>
++            </tr>
++            <tr>
++                <td>Automatical learning</td>
++                <td>Period 1</td>
++                <td>Computer science</td>
++            </tr>
++            <tr>
++                <td>computational complexity</td>
++                <td>Period 1</td>
++                <td>Computer science</td>
++            </tr>
++            <tr>
++                <td>Computer arquitecture</td>
++                <td>Period 1</td>
++                <td>Computer science</td>
++            </tr>
++                <tr>
++                    <td>Criptografy</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                
++                <tr>
++                    <td> Data mininng</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Science orizonts</td>
++                    <td>Period 2</td>
++                    <td>Social studies</td>
++                </tr>
++                <tr>
++                    <td>Control systems</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Econometrics</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Proyects III</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Operative systems</td>
++                    <td>Period 2</td>
++                    <td>Computer science</td>
++                </tr>
++                
++            </table>
++        </section>
++        <section>
++            <h2>Fourth  year Courses</h2>
++            <table border="1">
++                <tr>
++                    <th> Course </th>
++                    <th> period </th>
++                    <th> category </th>
++                </tr>
++                <tr>
++                    <td> Legislation </td>
++                    <td> Period 1 </td>
++                    <td> Social studies </td>
++                </tr>
++                <tr>
++                    <td> Media processing</td>
++                    <td> Period 1 </td>
++                    <td>Computer science</td>
++                </tr>
++                <tr>
++                    <td>Biomathematic</td>
++                    <td>Period 1</td>
++                    <td>Maths</td>
++                </tr>
++                <tr>
++                    <td>Data visualization
++                    </td>
++                    <td>Period 1</td>
++                    <td>Maths</td>
++                </tr>
++            </tr>
++            <tr>
++                <td>Software engineering II</td>
++                <td>Period 1</td>
++                <td>Computer science</td>
++            </tr>
++            <tr>
++                <td>Internet of things</td>
++                <td>Period 2</td>
++                <td>Computer science</td>
++            </tr>
++                <tr>
++                    <td>Software project management</td>
++                    <td>Period 2</td>
++                    <td>Computer science</td>
++                </tr>
++                
++                <tr>
++                    <td>TFG I</td>
++                    <td>Period 2</td>
++                    <td>Maths</td>
++                </tr>
++               
++            </table>
++        </section>
++        <section>
++            <h2>Fifth year Courses</h2>
++            <table border="1">
++                <tr>
++                    <th> Course </th>
++                    <th> period </th>
++                    <th> category </th>
++                </tr>
++                <tr>
++                    <td> Software development and integration </td>
++                    <td> Period 1 </td>
++                    <td> Computer science </td>
++                </tr>
++                <tr>
++                    <td> Artificial intelligence </td>
++                    <td> Period 1 </td>
++                    <td>Computer science</td>
++                </tr>
++                <tr>
++                    <td>Computer-person interaction</td>
++                    <td>Period 1</td>
++                    <td>Computer science</td>
++                </tr>
++                <tr>
++                    <td>High-performance computation
++                    </td>
++                    <td>Period 1</td>
++                    <td>Computer science</td>
++                </tr>
++            </tr>
++            <tr>
++                <td>Quality management</td>
++                <td>Period 1</td>
++                <td>Computer science</td>
++            </tr>
++            <tr>
++                <td>System administration</td>
++                <td>Period 1</td>
++                <td>Computer science</td>
++            </tr>
++                
++                <tr>
++                    <td>Advanced databases II</td>
++                    <td>Period 2</td>
++                    <td>Computer science</td>
++                </tr>
++                <tr>
++                    <td>TFG II</td>
++                    <td>Period 2</td>
++                    <td>Computer science</td>
++                </tr>
++                
++            </table>
++        </section>
++    </main>
++    
++</body>
++</html>
++
++
+
+commit 3d075137f5fda407a95af315dd733cc7eb1e53c6
+Author: Beltran0te0programaOlaOtostadora <beltranem@gmail.com>
+Date:   Mon Jun 30 17:11:31 2025 +0200
+
+    Adding contact file
+
+diff --git a/docs/public/contact.html b/docs/public/contact.html
+new file mode 100644
+index 0000000..eaf6611
+--- /dev/null
++++ b/docs/public/contact.html
+@@ -0,0 +1,49 @@
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <meta name="description" content="Contact me through this form to learn more about my work or ask questions.">
++    <title>Contact</title>
++    <link rel="stylesheet" href="../CSS/style.css">
++</head>
++<body>
++    <nav>
++        <ul>
++            <li><a href="../index.html">Home</a></li>
++            <li><a href="contact.html">Contact</a></li>
++            <li><a href="../public/net.htm">Net</a></li>
++            <li><a href="topic.html">Topic</a></li>
++            <li><a href="degree.html">Degree</a></li>
++            <li><a href="about.html">About Me</a></li>
++            <li><a href="fce.html">FCE</a></li>
++        </ul>
++    </nav>
++
++    <main>
++        <section id="contact">
++            <h1>Contact Me</h1>
++            <form method="post" action="#">
++                <div>
++                    <label for="firstname">First Name:</label>
++                    <input type="text" id="firstname" name="firstname" required>
++                </div>
++                <div>
++                    <label for="lastname">Last Name:</label>
++                    <input type="text" id="lastname" name="lastname" required>
++                </div>
++                <div>
++                    <label for="reason">Reason for Contact:</label>
++                    <input type="text" id="reason" name="reason" required>
++                </div>
++                <div>
++                    <label for="message">Your Message:</label>
++                    <textarea id="message" name="message" rows="5" required></textarea>
++                </div>
++                <button type="reset">Send</button>
++
++            </form>
++            
++        </section>
++    </main>
++</body>
++</html>
+\ No newline at end of file
+
+commit 2e852ae42c24a7ceeafb641ccb3d508ba31cc1e8
+Author: Beltran0te0programaOlaOtostadora <beltranem@gmail.com>
+Date:   Mon Jun 30 17:10:40 2025 +0200
+
+    Adding about me html file
+
+diff --git a/docs/public/about.html b/docs/public/about.html
+new file mode 100644
+index 0000000..6548094
+--- /dev/null
++++ b/docs/public/about.html
+@@ -0,0 +1,55 @@
++
++
++
++
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>About Me</title>
++    <link rel="stylesheet" href="../CSS/style.css">
++   
++
++   
++
++</head>
++<body>
++    <header>
++        <h1>About Me</h1>
++    </header>
++    <nav>
++        <ul>
++            <li><a href="../index.html">Home</a></li>
++            <li><a href="about.html">About Me</a></li>
++            <li><a href="contact.html">Contact</a></li>
++            <li><a href="../public/net.htm">Net</a></li>
++            <li><a href="topic.html">Topic</a></li>
++            <li><a href="degree.html">Degree</a></li>
++            <li><a href="fce.html">FCE</a></li>
++           
++        </ul>
++    </nav>
++    <main>
++        <section>
++        
++            <p>My name is Beltrán, and I am currently studying Mathematical and Computer Engineering at Francisco de Vitoria University. I have a strong passion for mathematics, programming, and solving complex problems through technology. if you want to know more about me you can check my CV</p>
++            <p>My first year in UFV has been really </p>
++        </section>
++        <li><a href="https://1drv.ms/w/c/5966d2f277c5adb9/EWMlTHle-CVAtJfgpuBb6gkB-5T7KdNnUoQm3S3oAkZ0Yg">CV</a></li>
++        <section>
++        <img src="../images/mifoto.jpg" alt="Photo of Beltrán" style="max-width: 300px; border-radius: 10px;">
++        <img src="../images/yoyelperro.jpg" alt="Photo of Beltrán" style="max-width: 300px; border-radius: 10px;">
++       
++            <h2>Contact Information</h2>
++            <p>Email nº1: beltranem@gmail.com</p>
++            <p>Email nº2: 9401928@alumnos.ufv.es</p>
++            <p>Phone: +34 659 934 005</p>
++            <p>Instagram: <a href="https://www.instagram.com/b.espinosa_?igsh=anlsYm11bHVzMjh4&utm_source=qr">@b.espinosa_</a></p>
++        </section>
++    </main>
++    
++</body>
++</html>
++
++
+
+commit 6d6bb4dae7b233775f3449b1bff66a5c5c03b1e8
+Author: Beltran0te0programaOlaOtostadora <beltranem@gmail.com>
+Date:   Mon Jun 30 17:09:18 2025 +0200
+
+    Adding index file to the repo
+
+diff --git a/docs/index.html b/docs/index.html
+new file mode 100644
+index 0000000..e7b892d
+--- /dev/null
++++ b/docs/index.html
+@@ -0,0 +1,36 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Welcome to My Website</title>
++    <link rel="stylesheet" href="CSS/style.css">
++</head>
++<body>
++    <header>
++        <h1>Welcome to My Website</h1>
++    </header>
++    <nav>
++        <ul>
++            <li><a href="index.html">Home</a></li>
++            <li><a href="Public/about.html">About Me</a></li>
++            <li><a href="Public/contact.html">Contact</a></li>
++            <li><a href="Public/net.html">Net</a></li>
++            <li><a href="Public/topic.html">Topic</a></li>
++            <li><a href="Public/degree.html">Degree</a></li>
++            <li><a href="fce.html">FCE</a></li>
++        </ul>
++    </nav>
++
++    <main>
++        <section>
++            <p>This website provides comprehensive information about me, my studies, and related topics. Use the navigation menu to explore different sections and learn more about what I do and what I'm passionate about.</p>
++            <p>In the <strong>About Me</strong> section, you'll find details about my background, education, interests, and professional aspirations. The <strong>Contact</strong> page allows you to get in touch directly through a simple form. If you're curious about the people and platforms I collaborate with, visit the <strong>Net</strong> section.</p>
++            <p>Want to dive deeper into a topic I care about? Head to the <strong>Topic</strong> section, where I’ve written about a subject that fascinates me. In <strong>Degree</strong>, you'll find detailed info about the academic program I'm enrolled in, including a breakdown of the subjects and one special topic called <strong>Fundamentals of Computer Engineering</strong>.</p>
++            <p>This site is part of a personal project to practice HTML and CSS while presenting who I am. It’s simple, functional, and built without JavaScript—focused only on structure, content, and style. I hope you find it useful and easy to navigate!</p>
++        </section>
++    </main>
++</body>
++</html>
++
++
+
+commit a90f007d577d17e211163e8ca3852a3d50f6c773
+Author: Beltran0te0programaOlaOtostadora <beltranem@gmail.com>
+Date:   Mon Jun 30 17:07:13 2025 +0200
+
+    Adding README file to the repo
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..af5a062
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++Hola
+\ No newline at end of file
